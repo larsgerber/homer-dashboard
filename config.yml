@@ -47,32 +47,32 @@ services:
     items:
 
       - name: "Digital Ocean"
-        logo: "assets/tools/do.png"
+        logo: "assets/tools/digitalocean.png"
         subtitle: "Server Hosting"
         url: "https://cloud.digitalocean.com/login"
 
       - name: "HostPoint"
-        logo: "https://bin.staticlocal.ch/localplace-logo/db/db8a5876ed62dcdf9079ed2f12774062e945ebf7/Hostpoint_icon.png"
+        logo: "assets/tools/hostpoint.png"
         subtitle: "Domain Hosting"
         url: "https://admin.hostpoint.ch"
 
       - name: "Synology"
-        logo: "https://icon-library.com/images/nas-icon/nas-icon-25.jpg"
+        logo: "assets/tools/synology.png"
         subtitle: "DiskStation"
         url: "https://cloud.larsgerber.ch/"
 
       - name: "Cloudinary"
-        logo: "https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png"
+        logo: "assets/tools/cloudinary.png"
         subtitle: "Content Delivery Network"
         url: "https://cloudinary.com/users/login"
         
       - name: "MongoDB"
-        logo: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+        logo: "assets/tools/mongodb.svg"
         subtitle: "Database"
         url: "https://account.mongodb.com/account/login"
 
       - name: "Swisscom"
-        logo: "https://www.swisscom-immobilien.ch/assets/images/Swisscom_Lifeform_RGB_Colour.png"
+        logo: "assets/tools/swisscom.png"
         subtitle: "Router"
         url: "http://192.168.1.1/#overview"
 
@@ -81,37 +81,37 @@ services:
     items:
 
       - name: "Nginx Proxy Manager"
-        logo: "https://nginxproxymanager.com/icon.png"
+        logo: "assets/tools/nginxproxymanager.png"
         subtitle: "Webserver"
         url: "https://admin.larsgerber.ch/"
         
       - name: "Mailcow"
-        logo: "https://mailcow.email/img/cow_mailcow.svg"
+        logo: "assets/tools/mailcow.svg"
         subtitle: "Mailserver"
         url: "https://mail.larsgerber.ch/"
 
       - name: "Portainer"
-        logo: "https://cdn.worldvectorlogo.com/logos/portainer.svg"
+        logo: "assets/tools/portainer.svg"
         subtitle: "Container Management"
         url: "https://portainer.larsgerber.ch"
 
       - name: "PiHole"
-        logo: "https://upload.wikimedia.org/wikipedia/commons/0/00/Pi-hole_Logo.png"
+        logo: "assets/tools/pihole.png"
         subtitle: "Adblocker"
-        url: "http://192.168.1.136:8080/admin/queries.php"
+        url: "http://192.168.1.136:8080/admin"
 
       - name: "Bitwarden"
-        logo: "https://user-images.githubusercontent.com/279847/48675261-9e6e5a80-eb0b-11e8-88ad-a980a091d5af.png"
+        logo: "assets/tools/bitwarden.png"
         subtitle: "Password Manager"
         url: "https://cloud.larsgerber.ch:5152"
 
       - name: "Grafana"
-        logo: "https://www.elliottbrowne.com/wp-content/uploads/2021/04/grafana.png"
+        logo: "assets/tools/grafana.png"
         subtitle: "Server Metrics"
         url: "https://metrics.larsgerber.ch"
         
       - name: "Umami"
-        logo: "https://icons-for-free.com/iconfiles/png/512/analytics+bar+chart+diagram+pie+statistics+icon-1320168139806868301.png"
+        logo: "assets/tools/umami.png"
         subtitle: "Website Analytics"
         url: "https://analytics.larsgerber.ch"
 
@@ -120,22 +120,22 @@ services:
     items:
       
       - name: "Uptime Kuma"
-        logo: "https://raw.githubusercontent.com/louislam/uptime-kuma/master/public/icon.svg"
+        logo: "assets/tools/uptime-kuma.svg"
         subtitle: "Dashboard"
         url: "https://status.larsgerber.ch/dashboard"
 
       - name: "Uptime Kuma"
-        logo: "https://raw.githubusercontent.com/louislam/uptime-kuma/master/public/icon.svg"
+        logo: "assets/tools/uptime-kuma.svg"
         subtitle: "Status Page"
         url: "https://status.larsgerber.ch/status-page"
 
       - name: "Uptime Robot"
-        logo: "https://pipedream.com/s.v0/app_Xywhek/logo/orig"
+        logo: "assets/tools/uptime-robot.svg"
         subtitle: "Dashboard"
         url: "https://uptimerobot.com/login"
 
       - name: "Uptime Robot"
-        logo: "https://pipedream.com/s.v0/app_Xywhek/logo/orig"
+        logo: "assets/tools/uptime-robot.svg"
         subtitle: "Status Page"
         url: "https://stats.uptimerobot.com/3Y5j6Img8l"
 
@@ -144,12 +144,12 @@ services:
     items:
       
       - name: "Swiss Gaming Clan"
-        logo: "https://swissgamingclan.ch/logo/head_right.png"
+        logo: "assets/tools/swissgamingclan.png"
         subtitle: "swissgamingclan.ch"
         url: "https://swissgamingclan.ch/"
 
       - name: "Blog of Lars Gerber"
-        logo: "https://blog.larsgerber.ch/logo/lg.svg"
+        logo: "assets/tools/lg.svg"
         subtitle: "blog.larsgerber.ch"
         url: "https://blog.larsgerber.ch/"
 
@@ -163,6 +163,6 @@ services:
         url: "https://cloud.larsgerber.ch:5253"
 
       - name: "Strapi"
-        logo: "https://coollogo.net/wp-content/uploads/2021/03/Strapi-logo.svg"
+        logo: "assets/tools/strapi.svg"
         subtitle: "Content-Management-System"
         url: "https://strapi.larsgerber.ch/"
