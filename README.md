@@ -1,6 +1,8 @@
 # Homer Dashboard
 
-My simple own configuration of the Homer dashboard.
+My simple configuration of the Homer dashboard.
+
+![Homer Dashboard](icons/demo.png "Homer Dashboard")
 
 Copyright Bastien Wirtz  [github.com/bastienwirtz/homer](https://github.com/bastienwirtz/homer).
 
