@@ -1,0 +1,20 @@
+---
+# Additionnal page configuration
+
+# Additionnal configurations are loaded using its file name, minus the extension, as an anchor (https://<mydashboad>#<config>). 
+# `config.yml` is still used as a base configuration, and all values here will overwrite it, so you don't have to re-defined everything
+
+
+subtitle: "this is another dashboard page"
+
+# This overwrites message config. Setting it to empty to remove message from this page and keep it only in the main one:
+message:
+  content: "<a href='https://open.spotify.com/user/0ebmfd1ib37v8yarqnep2gbgw'><img alt='Spotify' src='https://novatorem-larsgerber.vercel.app/api/spotify'/>"
+
+# as we want to include a differente link here (so we can get back to home page), we need to replicate all links or they will be revome when overwriting the links field:
+links:
+  - name: "Home"
+    icon: "fas fa-home"
+    url: "#"
+
+services: ~

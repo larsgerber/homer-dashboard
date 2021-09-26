@@ -1,0 +1,168 @@
+---
+title: "Dashboard"
+subtitle: "Homer"
+logo: "logo.png"
+
+header: true
+footer: false
+
+theme: default
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link-hover: "#ffdd57"
+
+links:
+  - name: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/larsgerber"
+  - name: "Spotify"
+    icon: "fab fa-spotify"
+    url: "#spotify"
+
+services:
+  - name: "Hosting"
+    icon: "fas fa-server"
+    items:
+
+      - name: "Digital Ocean"
+        logo: "assets/tools/do.png"
+        subtitle: "Server Hosting"
+        url: "https://cloud.digitalocean.com/login"
+
+      - name: "HostPoint"
+        logo: "https://bin.staticlocal.ch/localplace-logo/db/db8a5876ed62dcdf9079ed2f12774062e945ebf7/Hostpoint_icon.png"
+        subtitle: "Domain Hosting"
+        url: "https://admin.hostpoint.ch"
+
+      - name: "Synology"
+        logo: "https://icon-library.com/images/nas-icon/nas-icon-25.jpg"
+        subtitle: "DiskStation"
+        url: "https://cloud.larsgerber.ch/"
+
+      - name: "Cloudinary"
+        logo: "https://res.cloudinary.com/demo/image/upload/cloudinary_icon.png"
+        subtitle: "Content Delivery Network"
+        url: "https://cloudinary.com/users/login"
+        
+      - name: "MongoDB"
+        logo: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+        subtitle: "Database"
+        url: "https://account.mongodb.com/account/login"
+
+      - name: "Swisscom"
+        logo: "https://www.swisscom-immobilien.ch/assets/images/Swisscom_Lifeform_RGB_Colour.png"
+        subtitle: "Router"
+        url: "http://192.168.1.1/#overview"
+
+  - name: "Containers"
+    icon: "fab fa-docker"
+    items:
+
+      - name: "Nginx Proxy Manager"
+        logo: "https://nginxproxymanager.com/icon.png"
+        subtitle: "Webserver"
+        url: "https://admin.larsgerber.ch/"
+        
+      - name: "Mailcow"
+        logo: "https://mailcow.email/img/cow_mailcow.svg"
+        subtitle: "Mailserver"
+        url: "https://mail.larsgerber.ch/"
+
+      - name: "Portainer"
+        logo: "https://cdn.worldvectorlogo.com/logos/portainer.svg"
+        subtitle: "Container Management"
+        url: "https://portainer.larsgerber.ch"
+
+      - name: "PiHole"
+        logo: "https://upload.wikimedia.org/wikipedia/commons/0/00/Pi-hole_Logo.png"
+        subtitle: "Adblocker"
+        url: "http://192.168.1.136:8080/admin/queries.php"
+
+      - name: "Bitwarden"
+        logo: "https://user-images.githubusercontent.com/279847/48675261-9e6e5a80-eb0b-11e8-88ad-a980a091d5af.png"
+        subtitle: "Password Manager"
+        url: "https://cloud.larsgerber.ch:5152"
+
+      - name: "Grafana"
+        logo: "https://www.elliottbrowne.com/wp-content/uploads/2021/04/grafana.png"
+        subtitle: "Server Metrics"
+        url: "https://metrics.larsgerber.ch"
+        
+      - name: "Umami"
+        logo: "https://icons-for-free.com/iconfiles/png/512/analytics+bar+chart+diagram+pie+statistics+icon-1320168139806868301.png"
+        subtitle: "Website Analytics"
+        url: "https://analytics.larsgerber.ch"
+
+  - name: "Monitoring"
+    icon: "fas fa-heartbeat"
+    items:
+      
+      - name: "Uptime Kuma"
+        logo: "https://raw.githubusercontent.com/louislam/uptime-kuma/master/public/icon.svg"
+        subtitle: "Dashboard"
+        url: "https://status.larsgerber.ch/dashboard"
+
+      - name: "Uptime Kuma"
+        logo: "https://raw.githubusercontent.com/louislam/uptime-kuma/master/public/icon.svg"
+        subtitle: "Status Page"
+        url: "https://status.larsgerber.ch/status-page"
+
+      - name: "Uptime Robot"
+        logo: "https://pipedream.com/s.v0/app_Xywhek/logo/orig"
+        subtitle: "Dashboard"
+        url: "https://uptimerobot.com/login"
+
+      - name: "Uptime Robot"
+        logo: "https://pipedream.com/s.v0/app_Xywhek/logo/orig"
+        subtitle: "Status Page"
+        url: "https://stats.uptimerobot.com/3Y5j6Img8l"
+
+  - name: "Websites"
+    icon: "fas fa-globe-europe"
+    items:
+      
+      - name: "Swiss Gaming Clan"
+        logo: "https://swissgamingclan.ch/logo/head_right.png"
+        subtitle: "swissgamingclan.ch"
+        url: "https://swissgamingclan.ch/"
+
+      - name: "Blog of Lars Gerber"
+        logo: "https://blog.larsgerber.ch/logo/lg.svg"
+        subtitle: "blog.larsgerber.ch"
+        url: "https://blog.larsgerber.ch/"
+
+  - name: "Applications"
+    icon: "fas fa-cloud"
+    items:
+
+      - name: "Plex"
+        logo: "assets/tools/plex.png"
+        subtitle: "Media Server"
+        url: "https://cloud.larsgerber.ch:5253"
+
+      - name: "Strapi"
+        logo: "https://coollogo.net/wp-content/uploads/2021/03/Strapi-logo.svg"
+        subtitle: "Content-Management-System"
+        url: "https://strapi.larsgerber.ch/"
