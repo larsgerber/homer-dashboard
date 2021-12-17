@@ -8,3 +8,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+
+    - name: Copy files to final destination
+      run: |
+        ls
+        pwd
