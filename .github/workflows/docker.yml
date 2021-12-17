@@ -8,9 +8,3 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-
-    - name: Copy files to final destination
-      run: |
-        rm -rf /opt/homer
-        mkdir /opt/homer
-        cp -r * /opt/homer
