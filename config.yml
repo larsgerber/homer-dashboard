@@ -33,14 +33,6 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.4)
     link-hover: "#ffdd57"
 
-links:
-  - name: "GitHub"
-    icon: "fab fa-github"
-    url: "https://github.com/larsgerber"
-  - name: "Spotify"
-    icon: "fab fa-spotify"
-    url: "#spotify"
-
 services:
   - name: "Hosting"
     icon: "fas fa-server"
