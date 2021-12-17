@@ -87,7 +87,7 @@ services:
         subtitle: "Container Management"
         url: "https://portainer.larsgerber.ch"
 
-      - name: "PiHole 1"
+      - name: "PiHole 11"
         logo: "assets/tools/pihole.png"
         subtitle: "Adblocker"
         url: "http://192.168.1.136:8080/admin"
