@@ -11,11 +11,6 @@ jobs:
 
     - name: Copy files to final destination
       run: |
-        ls
-        pwd
-
-    - name: copy file
-      uses: canastro/copy-file-action@master
-      with:
-        source: "README.md"
-        target: "/opt/homer/*"
+        rm -rf /opt/homer
+        mkdir /opt/homer
+        cp -r * /opt/homer
