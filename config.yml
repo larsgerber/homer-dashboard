@@ -103,7 +103,7 @@ services:
       - name: "Bitwarden"
         logo: "assets/tools/bitwarden.png"
         subtitle: "Password Manager"
-        url: "https://cloud.larsgerber.ch:5152"
+        url: "https://bitwarden.larsgerber.ch"
 
       - name: "Grafana"
         logo: "assets/tools/grafana.png"
@@ -160,7 +160,7 @@ services:
       - name: "Plex"
         logo: "assets/tools/plex.png"
         subtitle: "Media Server"
-        url: "https://cloud.larsgerber.ch:5253"
+        url: "https://plex.larsgerber.ch"
 
       - name: "Strapi"
         logo: "assets/tools/strapi.svg"
