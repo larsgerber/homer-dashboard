@@ -72,10 +72,10 @@ services:
     icon: "fab fa-docker"
     items:
 
-      - name: "Nginx Proxy Manager"
-        logo: "assets/tools/nginxproxymanager.png"
+      - name: "Traefik"
+        logo: "assets/tools/traefik.png"
         subtitle: "Webserver"
-        url: "https://admin.larsgerber.ch/"
+        url: "https://infra-prd-web1.p.larsgerber.ch"
         
       - name: "Mailcow"
         logo: "assets/tools/mailcow.svg"
@@ -90,18 +90,17 @@ services:
       - name: "PiHole"
         logo: "assets/tools/pihole.png"
         subtitle: "Adblocker"
-        url: "https://pihole.service.larsgerber.ch/"
-        type: "PiHole"
+        url: "https://pihole.larsgerber.ch/"
 
       - name: "Bitwarden"
         logo: "assets/tools/bitwarden.png"
         subtitle: "Password Manager"
         url: "https://bitwarden.larsgerber.ch"
 
-      - name: "Grafana"
-        logo: "assets/tools/grafana.png"
-        subtitle: "Server Metrics"
-        url: "https://metrics.larsgerber.ch"
+      # - name: "Grafana"
+      #   logo: "assets/tools/grafana.png"
+      #   subtitle: "Server Metrics"
+      #   url: "https://metrics.larsgerber.ch"
         
       - name: "Umami"
         logo: "assets/tools/umami.png"
