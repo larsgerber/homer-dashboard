@@ -43,6 +43,11 @@ services:
         subtitle: "Server Hosting"
         url: "https://cloud.digitalocean.com/login"
 
+      - name: "Hetzner Cloud"
+        logo: "assets/tools/hetzner.jpg"
+        subtitle: "Server Hosting"
+        url: "https://console.hetzner.cloud"
+
       - name: "HostPoint"
         logo: "assets/tools/hostpoint.png"
         subtitle: "Domain Hosting"
