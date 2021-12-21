@@ -3,38 +3,46 @@ title: "Dashboard"
 subtitle: "Homer"
 logo: "logo.png"
 
-header: true
+header: false
 footer: false
 
+stylesheet:
+  - "assets/custom.css"
+
+columns: "3" # You can change this to any number that is a factor of 12: (1, 2, 3, 4, 6, 12)
 theme: default
 colors:
   light:
-    highlight-primary: "#3367d6"
-    highlight-secondary: "#4285f4"
-    highlight-hover: "#5a95f5"
-    background: "#f5f5f5"
-    card-background: "#ffffff"
-    text: "#363636"
-    text-header: "#ffffff"
-    text-title: "#303030"
-    text-subtitle: "#424242"
-    card-shadow: rgba(0, 0, 0, 0.1)
-    link-hover: "#363636"
+    highlight-primary: "#fff5f2"
+    highlight-secondary: "#fff5f2"
+    highlight-hover: "#bebebe"
+    background: "#12152B"
+    card-background: "#fff5f2"
+    text: "#ffffff"
+    text-header: "#fafafa"
+    text-title: "#000000"
+    text-subtitle: "#111111"
+    card-shadow: rgba(0, 0, 0, 0.5)
+    link: "#3273dc"
+    link-hover: "#2e4053"
+    background-image: "../assets/wallpaper-light.jpeg" # Change wallpaper.jpeg to the name of your own custom wallpaper!
   dark:
-    highlight-primary: "#3367d6"
-    highlight-secondary: "#4285f4"
-    highlight-hover: "#5a95f5"
-    background: "#131313"
-    card-background: "#2b2b2b"
+    highlight-primary: "#181C3A"
+    highlight-secondary: "#181C3A"
+    highlight-hover: "#1F2347"
+    background: "#12152B"
+    card-background: "#181C3A"
     text: "#eaeaea"
-    text-header: "#ffffff"
+    text-header: "#7C71DD"
     text-title: "#fafafa"
-    text-subtitle: "#f5f5f5"
-    card-shadow: rgba(0, 0, 0, 0.4)
-    link-hover: "#ffdd57"
+    text-subtitle: "#8B8D9C"
+    card-shadow: rgba(0, 0, 0, 0.5)
+    link: "#c1c1c1"
+    link-hover: "#fafafa"
+    background-image: "../assets/wallpaper.jpeg"
 
 services:
-  - name: "Hosting"
+  - name: "//Hosting"
     icon: "fas fa-server"
     items:
 
@@ -60,7 +68,7 @@ services:
 
       - name: "Cloudinary"
         logo: "assets/tools/cloudinary.png"
-        subtitle: "Content Delivery Network"
+        subtitle: "Content-Delivery-Network"
         url: "https://cloudinary.com/users/login"
         
       - name: "MongoDB"
@@ -73,7 +81,7 @@ services:
         subtitle: "Router"
         url: "http://192.168.1.1/#overview"
 
-  - name: "Containers"
+  - name: "//Services"
     icon: "fab fa-docker"
     items:
 
@@ -112,7 +120,12 @@ services:
         subtitle: "Website Analytics"
         url: "https://analytics.larsgerber.ch"
 
-  - name: "Monitoring"
+      - name: "Etherpad"
+        logo: "assets/tools/etherpad.svg"
+        subtitle: "Online Editor"
+        url: "https://etherpad.larsgerber.ch/"
+
+  - name: "//Monitoring"
     icon: "fas fa-heartbeat"
     items:
       
@@ -136,7 +149,7 @@ services:
         subtitle: "Status Page"
         url: "https://stats.uptimerobot.com/3Y5j6Img8l"
 
-  - name: "Websites"
+  - name: "//Websites"
     icon: "fas fa-globe-europe"
     items:
       
@@ -145,12 +158,17 @@ services:
         subtitle: "swissgamingclan.ch"
         url: "https://swissgamingclan.ch/"
 
-      - name: "Blog of Lars Gerber"
+      - name: "My link page"
+        logo: "assets/tools/littlelink.png"
+        subtitle: "larsgerber.ch"
+        url: "https://larsgerber.ch/"
+
+      - name: "My blog"
         logo: "assets/tools/lg.svg"
         subtitle: "blog.larsgerber.ch"
         url: "https://blog.larsgerber.ch/"
 
-  - name: "Applications"
+  - name: "//Applications"
     icon: "fas fa-cloud"
     items:
 
