@@ -110,10 +110,10 @@ services:
         subtitle: "Password Manager"
         url: "https://bitwarden.larsgerber.ch"
 
-      # - name: "Grafana"
-      #   logo: "assets/tools/grafana.png"
-      #   subtitle: "Server Metrics"
-      #   url: "https://metrics.larsgerber.ch"
+      - name: "Grafana"
+        logo: "assets/tools/grafana.png"
+        subtitle: "Server Metrics"
+        url: "https://grafana.larsgerber.ch/"
         
       - name: "Umami"
         logo: "assets/tools/umami.png"
