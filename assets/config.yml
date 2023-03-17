@@ -1,0 +1,167 @@
+---
+title: "Homelab"
+subtitle: "Homer"
+documentTitle: "Homelab"
+logo: "assets/logos/dark_circle.png"
+header: true
+footer: false
+columns: "3" 
+connectivityCheck: true
+proxy:
+  useCredentials: false
+defaults:
+  layout: columns
+  colorTheme: dark
+theme: default
+stylesheet:
+  - "assets/catppuccin-mocha.css"
+  - "assets/catppuccin-latte.css"
+
+links:
+  - name: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/larsgerber"
+  - name: "Email"
+    icon: "fas fa-inbox"
+    url: "https://mail.larsgerber.ch/SOGo"
+    # target: "_blank"
+
+services:
+  # - name: "Application"
+  #   icon: "fas fa-code-branch"
+  #   items:
+  #     - name: "Awesome app"
+  #       icon: "fab fa-jenkins"
+  #       subtitle: "Bookmark example"
+  #       keywords: "self hosted reddit"
+  #       url: "https://www.reddit.com/r/selfhosted/"
+
+  - name: "Hosting"
+    icon: "fas fa-server"
+    items:
+
+      - name: "Digital Ocean"
+        logo: "assets/images/tools/digitalocean.png"
+        subtitle: "DNS Hosting"
+        url: "https://cloud.digitalocean.com/login"
+
+      - name: "Hetzner Cloud"
+        logo: "assets/images/tools/hetzner.jpg"
+        subtitle: "Server Hosting"
+        url: "https://console.hetzner.cloud"
+
+      - name: "HostPoint"
+        logo: "assets/images/tools/hostpoint.png"
+        subtitle: "Domain Registrar"
+        url: "https://admin.hostpoint.ch"
+
+      - name: "Swisscom"
+        logo: "assets/images/tools/swisscom.png"
+        subtitle: "Router"
+        url: "http://internetbox/"
+
+  - name: "Services"
+    icon: fa-solid fa-circle-nodes
+    items:
+
+      - name: "Traefik"
+        logo: "assets/images/tools/traefik.png"
+        subtitle: "Webserver"
+        url: "https://infra-prd-web1.p.larsgerber.ch"
+        
+      - name: "Mailcow"
+        logo: "assets/images/tools/mailcow.svg"
+        subtitle: "Mailserver"
+        url: "https://mail.larsgerber.ch/"
+
+      - name: "Portainer"
+        logo: "assets/images/tools/portainer.svg"
+        subtitle: "Container Management"
+        url: "https://portainer.larsgerber.ch"
+
+      - name: "Docker Registry"
+        logo: "assets/images/tools/registry.png"
+        subtitle: "Container Registry"
+        url: "https://docker.larsgerber.ch"
+
+      - name: "Jenkins"
+        logo: "assets/images/tools/jenkins.png"
+        subtitle: "Automation Server"
+        url: "https://jenkins.larsgerber.ch"
+
+      - name: "Authelia"
+        logo: "assets/images/tools/authelia.png"
+        subtitle: "IAM"
+        url: "https://auth.larsgerber.ch/"
+
+  - name: "Monitoring"
+    icon: "fas fa-heartbeat"
+    items:
+      
+      - name: "Uptime Kuma"
+        logo: "assets/images/tools/uptime-kuma.svg"
+        subtitle: "Status Page"
+        url: "https://status.larsgerber.ch/status-page"
+
+      - name: "Grafana"
+        logo: "assets/images/tools/grafana.png"
+        subtitle: "Server Metrics"
+        url: "https://grafana.larsgerber.ch/"
+        
+      - name: "Umami"
+        logo: "assets/images/tools/umami.png"
+        subtitle: "Website Analytics"
+        url: "https://analytics.larsgerber.ch"
+
+  - name: "Websites"
+    icon: "fas fa-globe-europe"
+    items:
+      
+      - name: "Swiss Gaming Clan"
+        logo: "assets/images/tools/swissgamingclan.png"
+        subtitle: "swissgamingclan.ch"
+        url: "https://swissgamingclan.ch/"
+
+      - name: "Atelier Sidefyn"
+        logo: "assets/images/tools/atelier-sidefyn.png"
+        subtitle: "atelier-sidefyn.ch"
+        url: "https://atelier-sidefyn.ch/"
+
+      - name: "My link page"
+        logo: "assets/images/tools/littlelink.png"
+        subtitle: "larsgerber.ch"
+        url: "https://larsgerber.ch/"
+
+      - name: "My blog"
+        logo: "assets/images/tools/lg.svg"
+        subtitle: "blog.larsgerber.ch"
+        url: "https://blog.larsgerber.ch/"
+
+      - name: "My blog CMS"
+        logo: "assets/images/tools/strapi.svg"
+        subtitle: "strapi.larsgerber.ch"
+        url: "https://strapi.larsgerber.ch/"
+
+  - name: "Applications"
+    icon: "fa-solid fa-rocket"
+    items:
+
+      - name: "Bitwarden"
+        logo: "assets/images/tools/bitwarden.png"
+        subtitle: "Password Manager"
+        url: "https://bitwarden.larsgerber.ch"
+
+      - name: "IHateToBudget"
+        logo: "assets/images/tools/bitcoin.png"
+        subtitle: "Finance Management"
+        url: "https://budget.larsgerber.ch/"
+
+      - name: "Plex"
+        logo: "assets/images/tools/plex.png"
+        subtitle: "Media Server"
+        url: "https://plex.larsgerber.ch"
+
+      - name: "Etherpad"
+        logo: "assets/images/tools/etherpad.svg"
+        subtitle: "Online Editor"
+        url: "https://etherpad.larsgerber.ch/"

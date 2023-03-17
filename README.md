@@ -2,8 +2,8 @@
 
 My simple configuration of the Homer dashboard.
 
-![Homer Dashboard](icons/demo.png "Homer Dashboard")
+![Homer Dashboard](icons/todo.png "Homer Dashboard")
 
 Copyright Bastien Wirtz  [github.com/bastienwirtz/homer](https://github.com/bastienwirtz/homer).
 
-Support me on: [buymeacoffee/larsgerber](https://www.buymeacoffee.com/larsgerber)
+Copyright Catppuccin [github.com/mrpbennett/catppucin-homer](https://github.com/mrpbennett/catppucin-homer).
