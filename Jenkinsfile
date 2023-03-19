@@ -6,8 +6,8 @@ pipeline {
         DATE = new Date().format('yy.M')
         TAG = "${DATE}.${BUILD_NUMBER}"
         IMAGE = 'homer'
-        REGISTRY_URL ='docker.larsgerber.ch'
-        REGISTRY_CREDENTIALS= credentials('docker-ci')
+        REGISTRY_URL = 'docker.larsgerber.ch'
+        REGISTRY_CREDENTIALS = credentials('docker-ci')
     }
     stages {
         stage('Checkout SCM') {
