@@ -55,6 +55,11 @@ services:
         subtitle: "Domain Registrar"
         url: "https://admin.hostpoint.ch"
 
+      - name: "Synology"
+        logo: "assets/images/tools/synology.png"
+        subtitle: "DiskStation"
+        url: "https://diskstation/"
+
       - name: "Swisscom"
         logo: "assets/images/tools/swisscom.png"
         subtitle: "Router"
