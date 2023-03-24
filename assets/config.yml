@@ -106,7 +106,7 @@ services:
       - name: "Uptime Kuma"
         logo: "assets/images/tools/uptime-kuma.svg"
         subtitle: "Status Page"
-        url: "https://status.larsgerber.ch/"
+        url: "https://status.larsgerber.ch"
         type: "UptimeKuma"
 
       - name: "Grafana"
