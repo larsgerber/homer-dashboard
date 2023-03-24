@@ -34,16 +34,11 @@ services:
   #       icon: "fab fa-jenkins"
   #       subtitle: "Bookmark example"
   #       keywords: "self hosted reddit"
-  #       url: "https://www.reddit.com/r/selfhosted/"
+  #       url: "https://www.reddit.com/r/selfhosted"
 
   - name: "Hosting"
     icon: "fas fa-server"
     items:
-
-      - name: "Digital Ocean"
-        logo: "assets/images/tools/digitalocean.png"
-        subtitle: "DNS Hosting"
-        url: "https://cloud.digitalocean.com/login"
 
       - name: "Hetzner Cloud"
         logo: "assets/images/tools/hetzner.jpg"
@@ -55,15 +50,20 @@ services:
         subtitle: "Domain Registrar"
         url: "https://admin.hostpoint.ch"
 
+      - name: "Cloudflare"
+        logo: "assets/images/tools/cloudflare.png"
+        subtitle: "DNS Provider"
+        url: "https://dash.cloudflare.com"
+
       - name: "Synology"
         logo: "assets/images/tools/synology.png"
         subtitle: "DiskStation"
-        url: "https://diskstation/"
+        url: "https://diskstation"
 
       - name: "Swisscom"
         logo: "assets/images/tools/swisscom.png"
         subtitle: "Router"
-        url: "http://internetbox/"
+        url: "http://internetbox"
 
   - name: "Services"
     icon: fa-solid fa-circle-nodes
@@ -77,7 +77,7 @@ services:
       - name: "Mailcow"
         logo: "assets/images/tools/mailcow.svg"
         subtitle: "Mailserver"
-        url: "https://mail.larsgerber.ch/"
+        url: "https://mail.larsgerber.ch"
 
       - name: "Portainer"
         logo: "assets/images/tools/portainer.svg"
@@ -97,7 +97,7 @@ services:
       - name: "Authelia"
         logo: "assets/images/tools/authelia.png"
         subtitle: "IAM"
-        url: "https://auth.larsgerber.ch/"
+        url: "https://auth.larsgerber.ch"
 
   - name: "Monitoring"
     icon: "fas fa-heartbeat"
@@ -106,12 +106,13 @@ services:
       - name: "Uptime Kuma"
         logo: "assets/images/tools/uptime-kuma.svg"
         subtitle: "Status Page"
-        url: "https://status.larsgerber.ch/status-page"
+        url: "https://status.larsgerber.ch/"
+        type: "UptimeKuma"
 
       - name: "Grafana"
         logo: "assets/images/tools/grafana.png"
         subtitle: "Server Metrics"
-        url: "https://grafana.larsgerber.ch/"
+        url: "https://grafana.larsgerber.ch"
         
       - name: "Umami"
         logo: "assets/images/tools/umami.png"
@@ -125,27 +126,27 @@ services:
       - name: "Swiss Gaming Clan"
         logo: "assets/images/tools/swissgamingclan.png"
         subtitle: "swissgamingclan.ch"
-        url: "https://swissgamingclan.ch/"
+        url: "https://swissgamingclan.ch"
 
       - name: "Atelier Sidefyn"
         logo: "assets/images/tools/atelier-sidefyn.png"
         subtitle: "atelier-sidefyn.ch"
-        url: "https://atelier-sidefyn.ch/"
+        url: "https://atelier-sidefyn.ch"
 
       - name: "My link page"
         logo: "assets/images/tools/littlelink.png"
         subtitle: "larsgerber.ch"
-        url: "https://larsgerber.ch/"
+        url: "https://larsgerber.ch"
 
       - name: "My blog"
         logo: "assets/images/tools/lg.svg"
         subtitle: "blog.larsgerber.ch"
-        url: "https://blog.larsgerber.ch/"
+        url: "https://blog.larsgerber.ch"
 
       - name: "My blog CMS"
         logo: "assets/images/tools/strapi.svg"
         subtitle: "strapi.larsgerber.ch"
-        url: "https://strapi.larsgerber.ch/"
+        url: "https://strapi.larsgerber.ch"
 
   - name: "Applications"
     icon: "fa-solid fa-rocket"
@@ -159,7 +160,7 @@ services:
       - name: "IHateToBudget"
         logo: "assets/images/tools/bitcoin.png"
         subtitle: "Finance Management"
-        url: "https://budget.larsgerber.ch/"
+        url: "https://budget.larsgerber.ch"
 
       - name: "Plex"
         logo: "assets/images/tools/plex.png"
@@ -169,4 +170,4 @@ services:
       - name: "Etherpad"
         logo: "assets/images/tools/etherpad.svg"
         subtitle: "Online Editor"
-        url: "https://etherpad.larsgerber.ch/"
+        url: "https://etherpad.larsgerber.ch"
