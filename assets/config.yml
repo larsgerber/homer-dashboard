@@ -72,7 +72,7 @@ services:
       - name: "Traefik"
         logo: "assets/images/tools/traefik.png"
         subtitle: "Webserver"
-        url: "traefik.larsgerber.ch"
+        url: "https://traefik.larsgerber.ch"
         
       - name: "Mailcow"
         logo: "assets/images/tools/mailcow.svg"
