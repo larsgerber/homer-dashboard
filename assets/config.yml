@@ -152,6 +152,11 @@ services:
     icon: "fa-solid fa-rocket"
     items:
 
+      - name: "Cryptgeon"
+        logo: "assets/images/tools/cryptgeon.png"
+        subtitle: "Note Sharing"
+        url: "https://cryptgeon.larsgerber.ch"
+
       - name: "Bitwarden"
         logo: "assets/images/tools/bitwarden.png"
         subtitle: "Password Manager"
