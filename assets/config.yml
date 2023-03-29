@@ -117,7 +117,7 @@ services:
       - name: "Umami"
         logo: "assets/images/tools/umami.png"
         subtitle: "Website Analytics"
-        url: "https://analytics.larsgerber.ch"
+        url: "https://umami.larsgerber.ch"
 
   - name: "Websites"
     icon: "fas fa-globe-europe"
