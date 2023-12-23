@@ -157,6 +157,11 @@ services:
         subtitle: "Note Sharing"
         url: "https://cryptgeon.larsgerber.ch"
 
+      - name: "Pingvin Share"
+        logo: "assets/images/tools/pingvin-share.svg"
+        subtitle: "File Sharing"
+        url: "https://share.larsgerber.ch"
+
       - name: "Bitwarden"
         logo: "assets/images/tools/bitwarden.png"
         subtitle: "Password Manager"
