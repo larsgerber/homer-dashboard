@@ -1,8 +1,7 @@
 ---
-version: "2"
 services:
   homer:
-    image: b4bz/homer:v23.10.1
+    image: b4bz/homer:v24.05.1
     container_name: homer
     volumes:
       - ./assets:/www/assets
