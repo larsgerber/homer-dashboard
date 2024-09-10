@@ -144,11 +144,6 @@ services:
         subtitle: "blog.larsgerber.ch"
         url: "https://blog.larsgerber.ch"
 
-      - name: "My blog CMS"
-        logo: "assets/images/tools/strapi.svg"
-        subtitle: "strapi.larsgerber.ch"
-        url: "https://strapi.larsgerber.ch"
-
   - name: "Applications"
     icon: "fa-solid fa-rocket"
     items:
