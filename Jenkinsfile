@@ -16,7 +16,11 @@ pipeline {
     stages {
         stage('Checkout SCM') {
             steps {
-                git credentialsId: 'github', url: "git@github.com:${REPOSITORY_NAME}.git"
+                script {
+                    git branch: 'main',
+                    credentialsId: 'github',
+        		    url: "git@github.com:${REPOSITORY_NAME}.git"
+                }
             }
         }
         stage('Docker Build') {
