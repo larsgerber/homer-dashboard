@@ -2,7 +2,7 @@
 
 My simple configuration of the Homer dashboard.
 
-![Homer Dashboard](assets/images/demo.png)
+![Homer Dashboard](assets/images/demo.png?v=2)
 
 ## Docker
 
@@ -12,7 +12,7 @@ My simple configuration of the Homer dashboard.
 
 ### Run
 
-`docker run --rm -p 8090:8090 homer:0.0.1`
+`docker run --rm -p 8080:8080 homer:0.0.1`
 
 ### Compose
 
