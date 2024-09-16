@@ -2,34 +2,23 @@
 
 My simple configuration of the Homer dashboard.
 
-![Homer Dashboard](assets/images/demo.png "Homer Dashboard")
+![Homer Dashboard](assets/images/demo.png)
 
-Copyright Bastien Wirtz  [github.com/bastienwirtz/homer](https://github.com/bastienwirtz/homer).
+## Docker
 
-Copyright Catppuccin [github.com/mrpbennett/catppucin-homer](https://github.com/mrpbennett/catppucin-homer).
+### Build
 
-&nbsp;
+`docker build . --tag homer:0.0.1`
 
-## Develop
+### Run
 
-```bash
-docker-compose -f docker-compose.yml up
-```
+`docker run --rm -p 8090:8090 homer:0.0.1`
 
-## Build
+### Compose
 
-```bash
-docker buildx build --platform linux/amd64 -f ./Dockerfile -t docker.larsgerber.ch/homer:0.0.0 .
-```
+`docker compose -f docker-compose.yaml up`
 
-## Test
+## Acknowledgements
 
-```bash
-docker run --rm -p 8080:8080 docker.larsgerber.ch/homer:0.0.0
-```
-
-## Push
-
-```bash
-docker push docker.larsgerber.ch/homer:0.0.0
-```
+- [Homer Dashboard](https://github.com/bastienwirtz/homer)
+- [Catppuccin Theme](https://github.com/mrpbennett/catppucin-homer)
