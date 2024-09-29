@@ -5,7 +5,7 @@ documentTitle: "Homelab"
 logo: "assets/logos/dark_circle.png"
 header: true
 footer: false
-columns: "3" 
+columns: "3"
 connectivityCheck: true
 proxy:
   useCredentials: false
@@ -39,7 +39,6 @@ services:
   - name: "Hosting"
     icon: "fas fa-server"
     items:
-
       - name: "Hetzner Cloud"
         logo: "assets/images/tools/hetzner.jpg"
         subtitle: "Server Hosting"
@@ -68,12 +67,11 @@ services:
   - name: "Services"
     icon: fa-solid fa-circle-nodes
     items:
-
       - name: "Traefik"
         logo: "assets/images/tools/traefik.png"
         subtitle: "Webserver"
         url: "https://traefik.larsgerber.ch"
-        
+
       - name: "Mailcow"
         logo: "assets/images/tools/mailcow.svg"
         subtitle: "Mailserver"
@@ -89,10 +87,10 @@ services:
         subtitle: "Container Registry"
         url: "https://docker.larsgerber.ch"
 
-      - name: "Jenkins"
-        logo: "assets/images/tools/jenkins.png"
-        subtitle: "Automation Server"
-        url: "https://jenkins.larsgerber.ch"
+      - name: "Kestra"
+        logo: "assets/images/tools/kestra.svg"
+        subtitle: "Orchestration Platform "
+        url: "https://kestra.larsgerber.ch"
 
       - name: "Authelia"
         logo: "assets/images/tools/authelia.png"
@@ -102,7 +100,6 @@ services:
   - name: "Monitoring"
     icon: "fas fa-heartbeat"
     items:
-      
       - name: "Uptime Kuma"
         logo: "assets/images/tools/uptime-kuma.svg"
         subtitle: "Status Page"
@@ -113,7 +110,7 @@ services:
         logo: "assets/images/tools/grafana.png"
         subtitle: "Server Metrics"
         url: "https://grafana.larsgerber.ch"
-        
+
       - name: "Umami"
         logo: "assets/images/tools/umami.png"
         subtitle: "Website Analytics"
@@ -122,7 +119,6 @@ services:
   - name: "Websites"
     icon: "fas fa-globe-europe"
     items:
-      
       - name: "Swiss Gaming Clan"
         logo: "assets/images/tools/swissgamingclan.png"
         subtitle: "swissgamingclan.ch"
@@ -146,7 +142,6 @@ services:
   - name: "Applications"
     icon: "fa-solid fa-rocket"
     items:
-
       - name: "Cryptgeon"
         logo: "assets/images/tools/cryptgeon.png"
         subtitle: "Note Sharing"

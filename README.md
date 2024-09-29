@@ -4,19 +4,16 @@ My simple configuration of the Homer dashboard.
 
 ![Homer Dashboard](assets/images/demo.png?v=2)
 
-## Docker
-
-### Build
-
-`docker build . --tag homer:0.0.1`
-
-### Run
-
-`docker run --rm -p 8080:8080 homer:0.0.1`
-
-### Compose
+## Run locally
 
 `docker compose -f docker-compose.yaml up`
+
+## Release new version
+
+```bash
+git tag 1.0.0
+git push --tags
+```
 
 ## Acknowledgements
 
