@@ -69,7 +69,7 @@ services:
     items:
       - name: "Traefik"
         logo: "assets/images/tools/traefik.png"
-        subtitle: "Webserver"
+        type: Traefik
         url: "https://traefik.larsgerber.ch"
 
       - name: "Mailcow"
