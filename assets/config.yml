@@ -87,10 +87,10 @@ services:
         subtitle: "Container Registry"
         url: "https://docker.larsgerber.ch"
 
-      - name: "Kestra"
-        logo: "assets/images/tools/kestra.svg"
-        subtitle: "Orchestration Platform "
-        url: "https://kestra.larsgerber.ch"
+      - name: "Jenkins"
+        logo: "assets/images/tools/jenkins.png"
+        subtitle: "Automation Server"
+        url: "https://jenkins.larsgerber.ch"
 
       - name: "Authelia"
         logo: "assets/images/tools/authelia.png"
