@@ -1,3 +1,3 @@
-FROM b4bz/homer:v25.10.1
+FROM b4bz/homer:v25.11.1
 
 COPY ./assets /www/assets
