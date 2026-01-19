@@ -59,11 +59,6 @@ services:
         subtitle: "DiskStation"
         url: "https://diskstation"
 
-      - name: "Swisscom"
-        logo: "assets/images/tools/swisscom.png"
-        subtitle: "Router"
-        url: "http://internetbox"
-
   - name: "Services"
     icon: fa-solid fa-circle-nodes
     items:
@@ -119,11 +114,6 @@ services:
   - name: "Websites"
     icon: "fas fa-globe-europe"
     items:
-      - name: "Swiss Gaming Clan"
-        logo: "assets/images/tools/swissgamingclan.png"
-        subtitle: "swissgamingclan.ch"
-        url: "https://swissgamingclan.ch"
-
       - name: "Atelier Sidefyn"
         logo: "assets/images/tools/atelier-sidefyn.png"
         subtitle: "atelier-sidefyn.ch"
@@ -147,11 +137,6 @@ services:
         subtitle: "Note Sharing"
         url: "https://cryptgeon.larsgerber.ch"
 
-      - name: "Pingvin Share"
-        logo: "assets/images/tools/pingvin-share.svg"
-        subtitle: "File Sharing"
-        url: "https://share.larsgerber.ch"
-
       - name: "Bitwarden"
         logo: "assets/images/tools/bitwarden.png"
         subtitle: "Password Manager"
@@ -161,11 +146,6 @@ services:
         logo: "assets/images/tools/bitcoin.png"
         subtitle: "Finance Management"
         url: "https://budget.larsgerber.ch"
-
-      - name: "Plex"
-        logo: "assets/images/tools/plex.png"
-        subtitle: "Media Server"
-        url: "https://plex.larsgerber.ch"
 
       - name: "Etherpad"
         logo: "assets/images/tools/etherpad.svg"
